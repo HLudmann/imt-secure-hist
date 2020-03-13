@@ -4,8 +4,11 @@ import gmpy2
 
 class Paillier(object):
 
+    def __init__(self):
+        super().__init__()
+
     # @staticmethod
-    # def gem_prime():
+    # def gen_prime():
     #     # retrun a big random prime number
 
     # def gen_r(self, parameter_list):
