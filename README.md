@@ -1,5 +1,5 @@
 # **Content-Based Image Retrieval in Homomorphic Encryption Domain**
-Joseph FACEILNA \
+Joseph FACELINA \
 HugoLudmann
 
 ## **Prerequisites**
@@ -9,7 +9,7 @@ In order to use the program, you need to install the following python libraries 
 - pillow
 - tqdm
 
-Pillow and tqdm can installed with pip but for gmpy2 it's a bit more complicated since the version available on the packet manager has an issue with `random_state`.
+Pillow and tqdm can be installed with pip but for gmpy2 it's a bit more complicated since the version available on the packet manager has an issue with `random_state`.
 
 To install gmpy2, clone the github repo (make sure to checkout the 2.0.9 branch) and follow the installation instruction. You'll need GMP beforehand.
 
@@ -36,9 +36,9 @@ optional arguments:
 
 The reference pixels need to be a list of `int`, to be simpler, we use json format to feed it to the program.
 
-The "image" can be either a real image (PNG, JPEG...) or a matrix of pixels stores in json format. Furethemore, if the image is in color it will be converted into shades of grey before treatment.
+The "image" can be either a real image (PNG, JPEG...) or a matrix of pixels stored in json format. Furthermore, if the image is in color it will be converted into shades of grey before treatment.
 
-At the end of the computation, the results are printed as a list a frequencies which each corresponds to the reference pixel of the same index ; and the bar chart is displayed.
+At the end of the computation, the results are printed as a list of frequencies which each corresponds to the reference pixel of the same index; and the bar chart is displayed.
 
 ## **Example**
 
