@@ -1,4 +1,6 @@
 # **Content-Based Image Retrieval in Homomorphic Encryption Domain**
+Joseph FACEILNA \
+HugoLudmann
 
 ## **Prerequisites**
 
